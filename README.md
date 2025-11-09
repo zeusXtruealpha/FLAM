@@ -2,6 +2,9 @@
 
 `queuectl` is a CLI-based background job queue system built in Python. It is designed to be a minimal, production-grade service that manages background jobs, supports concurrent workers, handles automatic retries with exponential backoff, and includes a Dead Letter Queue (DLQ) for failed jobs.
 
+You can go through the Demo video in the below link
+[Google Drive Link](https://drive.google.com/file/d/1ZqBCZzYuAP73mRjqW_ILx72pshVIiALg/view?usp=sharing)
+
 ---
 
 ## Features

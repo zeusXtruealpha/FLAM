@@ -109,7 +109,6 @@ python -m queuectl.cli worker start --count 3
 ```cmd
 python -m queuectl.cli worker start --count 1
 ```
-*(This command blocks the terminal. Press `Ctrl+C` to stop.)*
 
 **Stop workers gracefully:**
 (Run this from a *different* terminal)

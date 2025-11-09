@@ -465,6 +465,16 @@ ENHANCED_TEMPLATE = '''
             .stats-grid {
                 grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
             }
+            .section-header {
+                flex-direction: column; /* Stack title and buttons */
+                align-items: flex-start; /* Align title to the left */
+                gap: 15px; /* Add space between title and buttons */
+            }
+            
+            .job-filters {
+                flex-wrap: wrap; /* Let buttons wrap to the next line */
+                margin-bottom: 0; /* Remove extra margin */
+            }
         }
     </style>
 </head>
@@ -478,10 +488,10 @@ ENHANCED_TEMPLATE = '''
         <div class="controls">
             <div class="control-group">
                 <button class="btn btn-primary" onclick="refreshData()">
-                    <span>🔄</span> Refresh Now
+                    <span></span> Refresh Now
                 </button>
                 <button class="btn btn-secondary" onclick="clearFilters()">
-                    <span>🗑️</span> Clear Filters
+                    <span></span> Clear Filters
                 </button>
             </div>
             

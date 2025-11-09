@@ -241,6 +241,8 @@ python -m queuectl.cli config set backoff-base 2
 
 ## Architecture Overview
 
+![WhatsApp Image 2025-11-09 at 22 06 27_c2512d5f](https://github.com/user-attachments/assets/6d9a873f-bb53-463a-86ca-23c3f96032b7)
+
 
 ### Components
 

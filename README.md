@@ -296,7 +296,7 @@ Jobs move between states based on worker actions:
 
 You can test all core flows using the automated script or by running the manual scenarios.
 
-### Test 1: Automated Validation Script (Recommended)
+### Test 1: Automated Validation Script 
 
 This script automatically cleans the environment and runs all 6 core scenarios.
 
